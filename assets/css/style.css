@@ -1,4 +1,4 @@
-header {
+cdheader {
   position: fixed;
   top: 0;
   left: 0;
@@ -178,15 +178,10 @@ p {
 
 /*media*/
 
-/* Large view */
-@media (max-width: 980px) { 
-  section.mainbox {
-    width: 960px;
-    margin-top: 7%;
-}
 
+/* small media
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   section.mainBox {
     max-width: 400px;
     margin-top: 25%;
@@ -202,10 +197,13 @@ p {
     margin: 0 auto;
   }
 }
+*/
 
-/* smallest media */
 
-@media (min-width: 450px) {
+/* smallest media */ 
+
+@media (min-width: 400px)
+  and  (max-width: 767px) {
   section.mainBox {
     max-width: 400px;
     margin-top: 25%;
@@ -223,10 +221,22 @@ p {
 }
 
 /* Medium view */
-@media (min-width: 768px) { 
+@media (min-width: 768px)
+       and (max-width: 979px) { 
   section.mainBox {
     max-width: 650px;
     margin-top: 9%;
   }
 }
+
+/* Large view */
+@media (min-width: 980px)
+      and (max-width: 1040px) { 
+  section.mainbox {
+    width: 960px;
+    margin-top: 7%;
+  }
+}
+
+
 
