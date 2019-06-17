@@ -208,7 +208,7 @@ p {
 @media (min-width: 450px) {
   section.mainBox {
     max-width: 400px;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-bottom: 20%;
   }
   img.imgSize {
