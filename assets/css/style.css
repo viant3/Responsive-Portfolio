@@ -94,8 +94,8 @@ p {
 .mainBox {
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 7%;
     color: #777777;
-    overflow-x: hidden; 
   }
 
 .centerPage {
@@ -141,10 +141,8 @@ p {
 
   .textBoxStandard {
       height: 20px;
-      width: 800px;
+      width: 100%;
   }
-
-
 
   .floatText{
     clear: left;
@@ -170,11 +168,6 @@ p {
     height: 40px;
 }
 
-.hideScroll{
-  overflow-x: hidden;
-}
-
-
 /* bootstrap over-rides */
 
 .navbar {
@@ -187,39 +180,53 @@ p {
 
 /* Large view */
 @media (max-width: 980px) { 
-  section {
-    max-width: 960px;
+  section.mainbox {
+    width: 960px;
     margin-top: 7%;
-    background-color: #ffffff;
+}
+
+
+@media (min-width: 640px) {
+  section.mainBox {
+    max-width: 400px;
+    margin-top: 20%;
+    margin-bottom: 20%;
   }
-  .textBoxStandard{
-    width: 800px;
+  img.imgSize {
+    display: block;
+    padding: 0 0 4% 0;
+    margin: 0 auto;
+  }
+  h2 {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* smallest media */
+
+@media (min-width: 450px) {
+  section.mainBox {
+    max-width: 400px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  img.imgSize {
+    display: block;
+    padding: 0 0 4% 0;
+    margin: 0 auto;
+  }
+  h2 {
+    display: block;
+    margin: 0 auto;
   }
 }
 
 /* Medium view */
-@media (max-width: 768px) { 
-  section {
+@media (min-width: 768px) { 
+  section.mainBox {
     max-width: 650px;
     margin-top: 9%;
   }
-  .textBoxStandard{
-    width: 500px;
-  }
 }
-
-
-/* Small view*/
-@media (max-width: 640px) { 
-  section {
-    max-width: 400px;
-    margin-top: 12%;
-    }
-    .textBoxStandard{
-      width: 300px;
-    }
- }
-
-
-
 
