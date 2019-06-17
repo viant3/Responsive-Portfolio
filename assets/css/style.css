@@ -192,10 +192,14 @@ p {
     padding: 0 0 4% 0;
     margin: 0 auto;
   }
+  
   h2 {
     display: block;
     margin: 0 auto;
     margin-top: 5%;
+  }
+  .textBoxStandard {
+    line-height: 1em;
   }
 }
 
