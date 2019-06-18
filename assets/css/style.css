@@ -209,6 +209,7 @@ p {
   section.mainBox {
     max-width: 650px;
     margin-top: 20%;
+    margin-bottom: 20%;
   }
 }
 
