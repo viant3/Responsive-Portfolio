@@ -86,7 +86,7 @@ p {
     max-width: 960px;
     margin: 0 auto;
     margin-top: 7%;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     color: #777777;
   }
 
@@ -149,6 +149,7 @@ p {
     padding: 15px 0px;
     width: 250px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
     float: left;
   }
 
