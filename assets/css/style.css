@@ -96,7 +96,7 @@ p {
     margin: 0 auto;  
 }
 
-/* old css replaced with cols and rows
+/* old css replaced with cols and rows that I made in Basic Port
 
 .leftColumn {
     width: 25%;
@@ -199,10 +199,15 @@ h2 {
 .textBoxStandard {
   line-height: 1em;
 }
-.centerNav {
-  padding-right: 25%;
+.containerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center }
+div.containerNav {
+  margin: 0;
 }
 }
+
 
 /* Medium view */
 @media (min-width: 768px)
